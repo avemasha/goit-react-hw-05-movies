@@ -1,5 +1,5 @@
 import Navigation from 'components/Navigation/Navigation';
-import s from './heading.module.css';
+import s from 'src/components/Heading/heading.module.css';
 
 export default function Heading() {
   return (
