@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Spinner from 'utils/Spinner/Spinner';
-import s from './listMovies.module.css'
+import s from './ListMovies.module.css'
 
 export default function ListMovies({ search }) {
     const [movies, setMovies] = useState();
